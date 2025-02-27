@@ -429,7 +429,7 @@
      <script>
 
           // esta función inserta el nav en el div id="barra-nav"
-          fetch('/html/barra_nav.html')
+          fetch('./html/barra_nav.html')
                .then(response => response.text())
                .then(data => {
                     document.getElementById('barra-nav').innerHTML = data;
