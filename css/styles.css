@@ -335,6 +335,28 @@ h2 {
 /* fin div frase inspiradora */
 
 
+/* flechita que nos devuelve al inicio */
+
+  .btn-subir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 24px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s;
+    text-decoration: none;
+  }
+
+  .btn-subir:hover {
+    background-color: #1b742f;
+  }
+
+
 
 /*************************************************************/
 
@@ -371,3 +393,7 @@ h2 {
     text-align: center;
   }
 }
+
+
+
+
