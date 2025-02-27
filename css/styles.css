@@ -1,0 +1,373 @@
+/* styles.css */
+
+/* Personalización para el navbar */
+
+body {
+  background-color: rgb(233, 233, 245);
+}
+
+
+/* google font */
+
+.caveat-frase {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
+/* barra de navegación*/
+.navbar-custom {
+  background-color: #28a745;
+  /* Verde (puedes cambiarlo por otro código hexadecimal) */
+}
+
+.navbar-custom .nav-link {
+  color: white;
+  /* Los enlaces en blanco */
+}
+
+.navbar-custom .navbar-brand {
+  color: white;
+  /* El nombre de la marca en blanco */
+}
+
+/* Otras personalizaciones (si las necesitas) */
+
+
+/* inicio redes sociales */
+
+.icons {
+  width: 100%;
+  text-align: center;
+}
+
+.icons a {
+  font-size: 30px;
+  /* Tamaño de los íconos */
+  color: #333;
+  /* Color base */
+  margin: 10px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+/* Color al pasar el mouse */
+.icons a:hover {
+  color: #0073e6;
+}
+
+/* fin redes sociales */
+
+/* inicio secciones en general */
+#quienes_somos,
+#nuestro_origen,
+#significado_nombre,
+#objetivos {
+  height: auto;
+  width: 100%;
+  margin: 50px 0 50px 0;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+/* fin secciones en general */
+
+
+
+
+/*
+      .card:hover {
+          transform: scale(1.05);
+          transition: transform 0.3s;
+      }*/
+
+.card {
+  border: none;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* inicio de titulos */
+h2 {
+  font-family: 'Georgia', serif;
+  color: #323332;
+  border-bottom: 4px solid #00bcd4;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* fin de titulos */
+
+
+/* Sección Introducción */
+.fondo-intro {
+  /* Color de fondo suave */
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  padding: 20px;
+  /* Bordes redondeados 
+  border-radius: 10px;*/
+  /* Sombra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+
+}
+
+.titulo-intro {
+  font-family: 'Georgia', serif;
+  /* Tipografía elegante */
+  font-size: 2em;
+  font-weight: bold;
+  /* Color del título */
+  text-align: center;
+  margin: 40px auto 50px auto;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.texto-intro {
+  /* Tipografía legible */
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+  /* Color del texto */
+  color: #34495e;
+  /* Altura de línea 
+  line-height: 1.6; */
+}
+
+
+
+.resaltado {
+  /* Negrita para resaltar */
+  font-weight: bold;
+  /* Color de resaltado */
+  color: #e74c3c;
+
+}
+
+/* fin Sección Introducción */
+
+
+
+/* Sección: Nuestro origen */
+/* Estilo del texto centrado */
+.origen-col-img-texto {
+  height: auto;
+  background-image: url("../img/origen.jpg");
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilo del texto centrado */
+.origen-col-texto {
+  height: auto;
+  color: rgb(56, 52, 52);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* fin Sección: Nuestro origen */
+
+
+
+/* Sección: Significado del nombre */
+.circle {
+  width: 300px;
+  height: 300px;
+  background-color: #4CAF50;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 50px;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el signo de suma */
+.plus-sign {
+  font-size: 50px;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Asegura que los elementos se alineen bien */
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-significado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.text-center {
+  text-align: justify;
+}
+
+/* fin Sección: Significado del nombre */
+
+
+
+/* Sección Finalidad */
+
+
+.finalidad {
+  height: auto;
+  background-image: url('../img/finalidad.png');
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+.blue {
+  /* Filtro azul */
+  filter: hue-rotate(320deg) brightness(80%);
+}
+
+.red {
+  /* Filtro rojo */
+  filter: sepia(1) saturate(1.5) hue-rotate(-80deg);
+}
+
+.overlay {
+  max-width: 75%;
+}
+
+.finalidad h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.finalidad h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #FFD700;
+  /* Dorado para contrastar */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.finalidad ol {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+}
+
+.finalidad li {
+  padding: 10px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  position: relative;
+}
+
+.finalidad li::before {
+  content: "▹";
+  /* Flechita elegante */
+  color: #FFD700;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+/* fin Sección Finalidad */
+
+
+/* div frase inspiradora */
+.frase-inspiradora {
+  min-height: 400px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+
+
+
+
+}
+
+/* fin div frase inspiradora */
+
+
+
+/*************************************************************/
+
+/* responsividad */
+/* dispositivos medianos y pequeños */
+@media (max-width: 575.98px) {
+  .container-origen {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .origen-col-img-texto {
+    width: 100%;
+  }
+
+  .origen-col-texto {
+    width: 100%;
+  }
+}
+
+
+/* dispositivos grandes */
+@media (min-width: 576px) {
+  .container-origen {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+}
